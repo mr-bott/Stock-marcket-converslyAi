@@ -1,0 +1,86 @@
+.wallet-container {
+    width:80%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wallet-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .wallet-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .wallet-details {
+    margin-bottom: 20px;
+  }
+  
+  .wallet-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .wallet-item:last-child {
+    border-bottom: none;
+  }
+  
+  .wallet-label {
+    font-weight: bold;
+  }
+  
+  .wallet-value {
+    color: #555;
+  }
+  
+  .wallet-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .wallet-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .wallet-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff; /* Primary blue color */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .wallet-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .wallet-button:active {
+    transform: scale(0.98); /* Slight shrink effect on click */
+  }
+  
+  .wallet-button.withdraw {
+    background-color: #dc3545; /* Red color for withdrawal */
+  }
+  
+  .wallet-button.withdraw:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  
